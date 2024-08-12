@@ -1,0 +1,9 @@
+  path: /content/drive/MyDrive/uavod10/YOLO # dataset root dir
+  train: train/images # train images (relative to 'path')  6471 images
+  val: val/images # val images (relative to 'path')  548 images
+  test: test/images # test images (optional)  1610 images
+
+  # Classes
+  names:
+    0: building
+    1: prefabricated-house
